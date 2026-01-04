@@ -1,5 +1,5 @@
 
-// Components 
+// Components :
 //ESP32 
 //Gyroscope (mpu6050 )
 // LCD Screen 
