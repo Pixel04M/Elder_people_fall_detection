@@ -1,5 +1,9 @@
 
-
+// Components 
+//ESP32 
+//Gyroscope (mpu6050 )
+// LCD Screen 
+// GPS (gps neo 6m) 
 #include <WiFi.h>
 #include <HTTPClient.h>
 #include <Wire.h>
@@ -10,10 +14,10 @@
 #include <HardwareSerial.h>
 
 // ==================== SETTINGS ====================
-const char* ssid      = "vivo28";
-const char* password  = "12345678";
-const char* apiUrl    = "https://wiutmadcw.uz/api/v1/records";
-const char* studentId = "00016881";
+const char* ssid      = "_" // Wi-fi  name ;
+const char* password  = "_"; // Wi-fi Password
+const char* apiUrl    = "_"; // Ur Api to create new records
+
 
 
 #define HEARTBEAT_PIN 34
