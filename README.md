@@ -23,13 +23,13 @@ Here are some photos of the hardware setup, device, and possibly the application
 
 <table>
   <tr>
-    <td align="center"><img src="https://raw.githubusercontent.com/Pixel04M/Elder_people_fall_detection/master/photo_2026-01-09_15-29-47.jpg" width="320" alt="Device overview"><br><sub>Device overview</sub></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/Pixel04M/Elder_people_fall_detection/master/photo_2026-01-09_15-30-09.jpg" width="320" alt="Sensor connection"><br><sub>Sensor connection</sub></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/Pixel04M/Elder_people_fall_detection/master/photo_2026-01-09_15-30-23.jpg" width="320" alt="Wearable placement"><br><sub>Wearable placement</sub></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/Pixel04M/Elder_people_fall_detection/master/photo_2026-01-09_15-29-47.jpg" width="320" alt="Device overview"><br><sub>Notification</sub></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/Pixel04M/Elder_people_fall_detection/master/photo_2026-01-09_15-30-09.jpg" width="320" alt="Sensor connection"><br><sub>Fall Alart Details</sub></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/Pixel04M/Elder_people_fall_detection/master/photo_2026-01-09_15-30-23.jpg" width="320" alt="Wearable placement"><br><sub>Records</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="https://raw.githubusercontent.com/Pixel04M/Elder_people_fall_detection/master/photo_2026-01-09_15-30-23%20(2).jpg" width="320" alt="Side view"><br><sub>Side view</sub></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/Pixel04M/Elder_people_fall_detection/master/photo_2026-01-09_15-30-31.jpg" width="320" alt="Full setup"><br><sub>Full setup</sub></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/Pixel04M/Elder_people_fall_detection/master/photo_2026-01-09_15-30-23%20(2).jpg" width="320" alt="Side view"><br><sub>Filter Only Alarts/ All Records </sub></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/Pixel04M/Elder_people_fall_detection/master/photo_2026-01-09_15-30-31.jpg" width="320" alt="Full setup"><br><sub>Realtime Heartbeat Monitoring</sub></td>
     <td align="center"></td> <!-- empty cell for balance if you want only 5 images -->
   </tr>
 </table>
