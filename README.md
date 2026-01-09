@@ -16,7 +16,7 @@ The system utilizes an ESP32 microcontroller to process sensor data and detect f
 
 - **Microcontroller**: ESP32
 - **Development Environment**: Arduino IDE
-- **Sensors**: Heartbeat & Gyroscope 
+- **Sensors**: Heartbeat & Gyroscope & NEO-6M 
 - **Connectivity**: IoT (Wi-Fi)
 - **Mobile App**: Android (Kotlin)
 
@@ -38,7 +38,6 @@ ESP32 Fall Detection Implementation:
 ## Future Improvements
 
 - Add machine learning for improved fall detection accuracy
-- Integrate GPS location in alerts
 - Support for multiple caregivers
 
 ---
