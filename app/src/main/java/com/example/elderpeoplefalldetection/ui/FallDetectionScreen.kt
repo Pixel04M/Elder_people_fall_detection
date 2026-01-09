@@ -330,7 +330,7 @@ fun formatTimestamp(timestamp: String): String {
         val outputFormat = SimpleDateFormat("MMM dd, yyyy HH:mm:ss", Locale.getDefault())
         val date = inputFormat.parse(timestamp)
         date?.let { outputFormat.format(it) } ?: timestamp
-    } catch (e: Exception) {
+    } catch (_: Exception) {
         timestamp
     }
 }
@@ -707,7 +707,7 @@ fun FallRecordCard(
 
             Spacer(modifier = Modifier.height(8.dp))
 
-            Divider()
+            androidx.compose.material3.HorizontalDivider()
 
             Spacer(modifier = Modifier.height(8.dp))
 
@@ -721,8 +721,11 @@ fun FallRecordCard(
 
             // Acceleration
             record.acceleration?.let { accel ->
+                val ax = String.format(Locale.getDefault(), "%.2f", accel.x)
+                val ay = String.format(Locale.getDefault(), "%.2f", accel.y)
+                val az = String.format(Locale.getDefault(), "%.2f", accel.z)
                 Text(
-                    text = "Acceleration: X=${String.format("%.2f", accel.x)}, Y=${String.format("%.2f", accel.y)}, Z=${String.format("%.2f", accel.z)}",
+                    text = "Acceleration: X=$ax, Y=$ay, Z=$az",
                     style = MaterialTheme.typography.bodySmall
                 )
             }
@@ -730,8 +733,10 @@ fun FallRecordCard(
             // Location
             record.location?.let { loc ->
                 Spacer(modifier = Modifier.height(4.dp))
+                val lat = String.format(Locale.getDefault(), "%.6f", loc.latitude)
+                val lon = String.format(Locale.getDefault(), "%.6f", loc.longitude)
                 Text(
-                    text = "📍 Location: ${String.format("%.6f", loc.latitude)}, ${String.format("%.6f", loc.longitude)}",
+                    text = "📍 Location: $lat, $lon",
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.primary
                 )
