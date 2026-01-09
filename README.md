@@ -1,32 +1,47 @@
-<a href="app/release/Elder%20People%20Fall%20Detection%20.apk">
-  <img src="https://www.pngplay.com/wp-content/uploads/6/Download-Button-Logo-Background-PNG-Image.png" width="240" align="left"/>
-</a>
-Elder People Fall Detection System
-An IoT-based fall detection system designed to improve the safety of elderly individuals.
-The system uses an ESP32 microcontroller to analyze sensor data and detect fall events in real time.
-When a fall is detected, an alert is immediately sent to an Android mobile application for quick response.
+# Elder People Fall Detection System
 
-<br clear="left"/>
-Key Features
-Real-time fall detection using sensor data
+An IoT-based fall detection system designed to enhance the safety of elderly individuals.  
+The system utilizes an ESP32 microcontroller to process sensor data and detect fall events in real-time. Upon detection, an immediate alert is sent to a companion Android mobile application for rapid response.
 
-Instant alert notifications via Android application
+[![Download Android APK](https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android&logoColor=white)](app/release/Elder%20People%20Fall%20Detection%20.apk)
 
-Edge processing on ESP32 for fast response
+## Key Features
 
-Designed for elderly care and emergency situations
+- Real-time fall detection using accelerometer and gyroscope sensor data
+- Instant push notifications to the Android application
+- Edge processing on ESP32 for low-latency response
+- Designed specifically for elderly care and emergency monitoring
 
-Tech Stack
-ESP32
+## Tech Stack
 
-Arduino IDE
+- **Microcontroller**: ESP32
+- **Development Environment**: Arduino IDE
+- **Sensors**: Accelerometer & Gyroscope (e.g., MPU6050)
+- **Connectivity**: IoT (Wi-Fi/Bluetooth)
+- **Mobile App**: Android (Native or Flutter/Kotlin)
 
-Sensors
+## Source Code
 
-IoT
+ESP32 Fall Detection Implementation:  
+[View on GitHub](https://github.com/Pixel04M/Elder_people_fall_detection/tree/974fdc39c159fa2fb4451e4f71429c06331e0984/esp32_fall_detection)
 
-Android App Development
-Source Code
+## Installation & Usage
 
-ESP32 implementation:
-https://github.com/Pixel04M/Elder_people_fall_detection/tree/974fdc39c159fa2fb4451e4f71429c06331e0984/esp32_fall_detection
+1. **ESP32 Firmware**  
+   - Clone the repository and open the project in Arduino IDE.  
+   - Upload the code to your ESP32 board.
+
+2. **Android App**  
+   - Download the APK from the button above.  
+   - Install on your Android device and configure the connection to the ESP32.
+
+## Future Improvements
+
+- Add machine learning for improved fall detection accuracy
+- Integrate GPS location in alerts
+- Support for multiple caregivers
+
+---
+
+Feel free to contribute or report issues!  
+For any questions, open an issue on the repository.
