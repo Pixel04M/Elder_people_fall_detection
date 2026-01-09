@@ -16,9 +16,9 @@ The system utilizes an ESP32 microcontroller to process sensor data and detect f
 
 - **Microcontroller**: ESP32
 - **Development Environment**: Arduino IDE
-- **Sensors**: Accelerometer & Gyroscope (e.g., MPU6050)
-- **Connectivity**: IoT (Wi-Fi/Bluetooth)
-- **Mobile App**: Android (Native or Flutter/Kotlin)
+- **Sensors**: Heartbeat & Gyroscope 
+- **Connectivity**: IoT (Wi-Fi)
+- **Mobile App**: Android (Kotlin)
 
 ## Source Code
 
