@@ -34,7 +34,6 @@ The system utilizes an ESP32 microcontroller to process sensor data and detect f
   </tr>
 </table>
 
-> Tip: You can adjust the `width="320"` value to make images smaller/larger depending on your preference.
 
 ## Source Code
 ESP32 Fall Detection Implementation:  
