@@ -19,7 +19,7 @@ The system utilizes an ESP32 microcontroller to process sensor data and detect f
 - **Mobile App**: Android (Kotlin)
 
 ## Screenshots / Showcase
-Here are some photos of the hardware setup, device, and possibly the application in action:
+
 
 <table>
   <tr>
