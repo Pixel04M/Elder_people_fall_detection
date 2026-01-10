@@ -13,7 +13,7 @@ The system utilizes an ESP32 microcontroller to process sensor data and detect f
 
 ## Tech Stack
 - **Microcontroller**: ESP32
-- **Development Environment**: Arduino IDE
+- **Development Environment**: Arduino IDE, Android Studio
 - **Sensors**: Heartbeat & Gyroscope & NEO-6M
 - **Connectivity**: IoT (Wi-Fi)
 - **Mobile App**: Android (Kotlin)
